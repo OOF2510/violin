@@ -2,7 +2,7 @@
   "name": "discord.js-template",
   "description": "A basic discord.js bot template, command handler included",
   "version": "2.0.0",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": "https://github.com/OOF2510/discord.js-template.git",
   "author": "OOF2510 <64423517+OOF2510@users.noreply.github.com>",
   "license": "MPL-2.0",
@@ -11,8 +11,11 @@
     "format": "prettier --no-config --write . --ignore-unknown"
   },
   "dependencies": {
+    "@discordjs/voice": "^0.13.0",
     "bufferutil": "^4.0.6",
     "discord.js": "^14.5.0",
+    "libsodium-wrappers": "^0.7.10",
+    "opusscript": "^0.0.8",
     "utf-8-validate": "^5.0.9"
   },
   "devDependencies": {
